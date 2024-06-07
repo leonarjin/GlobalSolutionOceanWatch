@@ -1,0 +1,6 @@
+.nav-Item{
+    display: flex;
+    flex-flow: center;
+    align-items: center;
+    width: 25%;
+}
