@@ -18,7 +18,7 @@ const MapComponent: React.FC = () => {
     <div>
       {!isScriptLoaded && (
         <LoadScript
-          url={`https://maps.googleapis.com/maps/api/js?key=AIzaSyBXD3NTCBLQXHqV3yW58aNJx6-aC1eVnGM&`} onLoad={() => setIsScriptLoaded(true)} />
+          url={`https://maps.googleapis.com/maps/api/js?key=AIzaSyBXD3NTCBLQXHqV3yW58aNJx6-aC1eVnGM`} onLoad={() => setIsScriptLoaded(true)} />
       )}
       <div ref={mapRef} style={{ height: '500px', width: '100%' }} />
     </div>
